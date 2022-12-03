@@ -1,0 +1,39 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Load Static Swagger Json",
+    "description": "Explore the swagger integration in Spring Boot.",
+    "version": "1.0"
+  },
+  "servers": [{
+    "url": "http://localhost:8088",
+    "description": "localhost"
+  }],
+  "tags": [{
+    "name": "heartbeat-restful",
+    "description": "Heartbeat Restful"
+  }],
+  "paths": {
+    "/swaggerdemo/heartbeat": {
+      "get": {
+        "tags": [
+          "heartbeat-restful"
+        ],
+        "summary": "heart beat",
+        "operationId": "heartBeatUsingGET",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

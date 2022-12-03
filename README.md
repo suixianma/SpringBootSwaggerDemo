@@ -6,7 +6,7 @@ Each folder is an standalone and runnable project.
 1) This project is showing how to utilize the Swagger annotation to generate Swagger UI automaticly.
 2) The advantage for this approach is no need predefinied OpenAPI specificattion yaml or json.
 3) It is suitable for projects which has simple request and response structure.
-4) Access http://localhost:8088/swagger-ui.html
+4) Access http://localhost:8088/swagger-ui/index.html
 
 ## SpringdocStaticSwaggerJson
 1) This project is showing how to load your existing OpenAPI specification yaml or json file.

@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-public class S3LogValidationApplication {
+public class SwaggerDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(S3LogValidationApplication.class, args);
+        SpringApplication.run(SwaggerDemoApplication.class, args);
     }
 
 }
